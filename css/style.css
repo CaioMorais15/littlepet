@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+}
+
+
+.fundoimagem {
+    background-repeat: no-repeat;
+    background-image: url(../img/cao-labrador-3-copy.webp);
+    background-size: cover;
+    background-position: center center;
+
+    width: 100%;
+    height: 700px;
+    opacity: 1;
+    visibility: initial;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+
+
+.pipi {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1)0%, rgba(0, 0, 0, 0.8)60%, rgba(0, 0, 0, 0)100%);
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.pipi li {
+    list-style: none;
+    display: block;
+    float: left;
+    text-transform: none;
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+.pipi li a {
+    text-decoration: none;
+    color: white;
+}
+
+.pipigrandao {
+    display: flex;
+    justify-content: center;
+}
+
+.inputPesquisa {
+    margin: 0px;
+    background-color: #f1f1f1;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgb(136, 0, 255);
+    padding: 1em;
+    text-align: center;
+    width: 50em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.produtos {
+    width: fit-content;
+    justify-content: space-between;
+ 
+}
+.produtos-img img{
+    margin: 50px;
+    border-radius: 30px;
+    width: 270px;
+}
+.produtos-textos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem-gato{
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-image: url(../img/WhatsApp\ Image\ 2023-02-24\ at\ 14.52.18.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    opacity: 1;
+    visibility: initial;
+    margin: 0 auto;
+    padding: 0px;
+}
+.p{
+    border: 2px solid powderblue
+    
+}
