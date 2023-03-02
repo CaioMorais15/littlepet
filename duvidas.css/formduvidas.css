@@ -31,7 +31,7 @@ h1{
     padding: 6px 10px;
     margin-bottom: 20px;
     background: transparent;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 
 }
 
@@ -45,7 +45,8 @@ h1{
     border:none;
     border-radius: 2em;
     height: 2.5em;
-    width:8em
+    width:8em;
+    
 }
 .form-master input:invalid{
     animation: shake 0.2s 2;
@@ -55,4 +56,9 @@ h1{
     25% {translate: 6px 0};
     50% {translate: -6px 0};
     75% {translate: 6px 0}
+}
+.tabela{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
 }
