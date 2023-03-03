@@ -15,7 +15,7 @@ header {
     position: fixed;
     right: 0;
     left: 0;
-    height: 150px;
+    height: 180px;
 
 }
 
@@ -134,5 +134,19 @@ header {
 }
 .lego-ninjago{
     width: 300px;
-    
+    text-transform: none;
+        text-transform: none;
+    padding-left: 2em;
 }
+.laranja-verde{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.coraçao2{
+    }
+    .tavin{
+        display: flex;
+        justify-content: center;
+        
+    }
