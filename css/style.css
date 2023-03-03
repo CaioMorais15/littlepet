@@ -46,7 +46,6 @@ header {
     background-color: #f1f1f1;
     border-radius: 15px;
     padding: 1em;
-    text-align: center;
     width: 40em;
     display: flex;
     justify-content: center;
@@ -125,6 +124,7 @@ header {
     top: -2px;
     display: flex;
     position: relative;
+    width: 300px;
 }
 .lego-batman{
     margin: 0px;
@@ -137,6 +137,7 @@ header {
     text-transform: none;
         text-transform: none;
     padding-left: 2em;
+    padding-top: 40px;
 }
 .laranja-verde{
     display: flex;
@@ -146,7 +147,26 @@ header {
 .coraçao2{
     }
     .tavin{
+        background-color: #1496a7;
         display: flex;
         justify-content: center;
+        border: 20px;
+        justify-content: space-evenly;
+        text-align: center;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         
     }
+    .tavin>li{
+        padding: 11px;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+     .morder{
+    width: 100% ;
+    padding: 0px; 
+     }
+     .quebao{
+        display: flex; 
+        align-items: center;
+     }
