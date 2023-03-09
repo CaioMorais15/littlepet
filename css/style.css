@@ -16,7 +16,8 @@ header {
     position: fixed;
     right: 0;
     left: 0;
-    height: 180px;
+    height: 130px;
+    z-index: 2;
 
 }
 
@@ -54,14 +55,12 @@ header {
 
 }
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .produtos {
     width: 220px;
     justify-content: space-between;
+display: inline-block;
+padding: 14px;
 
 
 }
@@ -74,14 +73,14 @@ header {
 }
 
 .produtos-textos {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-arredondada: cursive);
     width: fit-content;
     display: ;
     justify-content: center;
     text-align: center;
     align-items: center;
-    justify-content: center"
-    
+    justify-content: center;
+    margin: auto;
 
 }
 
@@ -128,7 +127,7 @@ header {
     top: -2px;
     display: flex;
     position: relative;
-    width: 300px;
+    width: 200px;
 }
 
 .lego-batman {
@@ -163,7 +162,7 @@ header {
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+margin: 0;
 }
 
 .tavin>li {
@@ -190,12 +189,51 @@ header {
     margin: auto;
 }
 
-.rodape {
-    text-align: center;
+.rodape{
     font-family: var(--fonte-arredondada);
     color: white;
+    font-size: medium;
+}
+.rodape>h2{
+    text-align: center;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: left;
+}
+.caio-comedor-de-cu{
+    width: 220px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 1px;
+    border-radius: 1.2rem;
+    z-index: 1;
+}
+.caio-pipi{
+    display: flex;
+    justify-content: space-evenly;
     
+}
+
+.testa-preta{
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+height: 80px;
+}
+.testa-preta p,
+.testa-preta h1{
+    margin: 0;
+    padding: 0;
+    margin: auto;
 
 }
 
-
+    .gustavo {
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
