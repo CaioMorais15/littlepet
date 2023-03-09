@@ -1,4 +1,4 @@
-:root{
+:root {
     --cor-de-fundo: #19A3B4;
     --fonte-arredondada: cursive;
 }
@@ -59,8 +59,8 @@ header {
 .produtos {
     width: 220px;
     justify-content: space-between;
-display: inline-block;
-padding: 14px;
+    display: inline-block;
+    padding: 14px;
 
 
 }
@@ -68,8 +68,11 @@ padding: 14px;
 .produtos-img img {
     margin: 50px;
     border-radius: 30px;
-    width: 270px;
-    display: flex; justify-content: center; background-color: #19A3B4; border-radius: 80px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    background-color: #19A3B4;
+    border-radius: 80px;
 }
 
 .produtos-textos {
@@ -130,6 +133,11 @@ padding: 14px;
     width: 200px;
 }
 
+.lego-granizo a{    
+    color: white;
+    text-decoration: none;
+}
+
 .lego-batman {
     margin: 0px;
     padding: 0px;
@@ -162,7 +170,7 @@ padding: 14px;
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-margin: 0;
+    margin: 0;
 }
 
 .tavin>li {
@@ -184,56 +192,97 @@ margin: 0;
 .slime {
     display: flex;
     justify-content: center;
-    width:98%;
+    width: 98%;
     height: 110px;
     margin: auto;
 }
 
-.rodape{
-    font-family: var(--fonte-arredondada);
-    color: white;
-    font-size: medium;
-}
-.rodape>h2{
-    text-align: center;
-}
-.redes-sociais{
-    display: flex;
-    justify-content: left;
-}
-.caio-comedor-de-cu{
+.caio-comedor-de-cu {
     width: 220px;
     justify-content: space-between;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 1px;
     border-radius: 1.2rem;
     z-index: 1;
-}
-.caio-pipi{
     display: flex;
-    justify-content: space-evenly;
-    
+    flex-wrap: wrap;
+margin: auto;
+padding: auto;
+
 }
 
-.testa-preta{
-    
+.caio-pipi {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.testa-preta {
+
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-height: 80px;
+    height: 80px;
+
 }
+
 .testa-preta p,
-.testa-preta h1{
+.testa-preta h1 {
     margin: 0;
     padding: 0;
     margin: auto;
 
 }
 
-    .gustavo {
-        display: flex;
-        justify-content: space-evenly;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
+.gustavo {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.footer{
+    padding: 10px;
+}
+
+.sobre-a-loja {
+    list-style: none;
+    display: flex;
+    margin: 1px;
+    font-size: 13px;
+    top: -2px;
+    width: fit-content;
+}
+
+.quem-somos {
+    list-style: none;
+    padding-left: 10px ;
+    margin:1px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-decoration: none;
+
+}
+.duvida-rodape{
+    
+}
+
+.murilo-pintudo {
+    width: 220px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 1px;
+    border-radius: 1.2rem;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.jorgin-da-rima{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
