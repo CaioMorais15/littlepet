@@ -1,3 +1,8 @@
+:root{
+    --cor-de-fundo: #19A3B4;
+    --fonte-arredondada: cursive;
+}
+
 body {
     margin: 0 auto;
 }
@@ -6,12 +11,8 @@ header {
     position: fixed;
 }
 
-
-
-
-
 .pipi {
-    background-color: #19A3B4;
+    background-color: var(--cor-de-fundo);
     position: fixed;
     right: 0;
     left: 0;
@@ -59,8 +60,9 @@ header {
 }
 
 .produtos {
-    width: fit-content;
+    width: 220px;
     justify-content: space-between;
+
 
 }
 
@@ -68,6 +70,7 @@ header {
     margin: 50px;
     border-radius: 30px;
     width: 270px;
+    display: flex; justify-content: center; background-color: #19A3B4; border-radius: 80px;
 }
 
 .produtos-textos {
@@ -78,6 +81,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center"
+    
 
 }
 
@@ -126,47 +130,72 @@ header {
     position: relative;
     width: 300px;
 }
-.lego-batman{
+
+.lego-batman {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
-.lego-ninjago{
+
+.lego-ninjago {
     width: 300px;
     text-transform: none;
-        text-transform: none;
+    text-transform: none;
     padding-left: 2em;
     padding-top: 40px;
 }
-.laranja-verde{
+
+.laranja-verde {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
-.coraçao2{
-    }
-    .tavin{
-        background-color: #1496a7;
-        display: flex;
-        justify-content: center;
-        border: 20px;
-        justify-content: space-evenly;
-        text-align: center;
-        color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        
-    }
-    .tavin>li{
-        padding: 11px;
-        border-radius: 10px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-     .morder{
-    width: 100% ;
-    padding: 0px; 
-     }
-     .quebao{
-        display: flex; 
-        align-items: center;
-     }
+
+.coraçao2 {}
+
+.tavin {
+    background-color: #1496a7;
+    display: flex;
+    justify-content: center;
+    border: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.tavin>li {
+    padding: 11px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.morder {
+    width: 100%;
+    padding: 0px;
+}
+
+.quebao {
+    display: flex;
+    align-items: center;
+}
+
+.slime {
+    display: flex;
+    justify-content: center;
+    width:98%;
+    height: 110px;
+    margin: auto;
+}
+
+.rodape {
+    text-align: center;
+    font-family: var(--fonte-arredondada);
+    color: white;
+    
+
+}
+
+
