@@ -309,10 +309,11 @@ header {
     text-transform: uppercase;
     background-color: #f1f1f1;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(210, 92, 8);
+    box-shadow: 5px 5px 10px rgb(53, 156, 174);
     padding: 2em;
     margin: 0 auto;
     z-index: 1;
+    
 }
 
 .gatinho-pipi p {
@@ -324,7 +325,7 @@ header {
 
 .gatinho-pipi input:invalid {
     animation: shake 0.2s 2;
-    border: 1PX solid rgb(210, 92, 8);
+    border: 1PX solid rgb(53, 156, 174);
 }
 
 .gatinho-pipi input,
@@ -334,12 +335,12 @@ header {
     margin-bottom: 20px;
     background: transparent;
     border: 1px solid #00000079;
-    border: 1PX solid rgb(210, 92, 8);
+    border: 1PX solid rgb(53, 156, 174);
 }
 
 .gatinho-pipiboton input {
-    background-color: rgb(#ffffff);
-    color: white;
+    background-color: rgb(53, 156, 174);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 2em;
     height: 2.5em;
@@ -348,13 +349,14 @@ header {
 }
 
 .loja-nova {
-    margin: 16px;
-    width: 100px;
+    margin: 90px;
+    width: 215px;   9
+    height: 157px;
     justify-content: center;
-    background-color: #ffffff;
-    border: 3px solid rgb(218, 218, 218);
-    padding: 4rem;
-    position: 0;
+    border: 8px solid rgb(218, 218, 218);
+    padding: 1.6rem;
+    border-radius: 10px;
+    
 }
 
 .banho-no-pipi {
@@ -368,3 +370,36 @@ header {
     margin: 0;
     list-style: none;
 }
+.cu-preto{
+   background-color: #1496a7;
+    border-radius: 100px;
+}
+.chifrudo-deteta{
+    width: 420px;
+    height: 120px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 1px;
+    border-radius: 1.2rem;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
+.teta-preta{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+.teta-pretaboton input{
+    background-color: rgb(#ff0000);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2em;
+    height: 3.5em;
+    width: 10em;
+}
+
+/* Lista de categor */
