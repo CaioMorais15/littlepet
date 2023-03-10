@@ -471,3 +471,18 @@ list-style: none;
     border: 5px solid rgba(186, 145, 119, 0.6);
     position: 0;
 }
+.racimo-e-crime{
+
+        width: fit-content;
+        text-transform: uppercase;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(19, 96, 158, 0.732);
+        padding: 2em;
+        margin: 0 auto;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
