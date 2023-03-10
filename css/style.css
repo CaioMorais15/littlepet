@@ -71,7 +71,7 @@ header {
     width: 280px;
     display: flex;
     justify-content: center;
-    background-color: #19A3B4;
+    background-color: #ffffff;
     border-radius: 80px;
 }
 
@@ -133,7 +133,7 @@ header {
     width: 200px;
 }
 
-.lego-granizo a{    
+.lego-granizo a {
     color: white;
     text-decoration: none;
 }
@@ -242,10 +242,17 @@ header {
     overflow-x: auto;
     white-space: nowrap;
 }
-.footer{
+
+.gustavo::-webkit-scrollbar {
+    display: none;
+}
+
+.footer {
     padding: 10px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: white;
 }
 
 .sobre-a-loja {
@@ -265,14 +272,18 @@ header {
     display: flow-root;
     justify-content: center;
     color: white;
-    text-align: center;
+    text-align: left;
     font-weight: 200;
 
 
+
 }
-.duvida-rodape{
-    
+
+.quem-somos>li {
+    text-decoration: none;
 }
+
+.duvida-rodape {}
 
 .murilo-pintudo {
     width: 220px;
@@ -282,16 +293,18 @@ header {
     border-radius: 1.2rem;
     z-index: 1;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 
 }
-.jorgin-da-rima{
+
+.jorgin-da-rima {
     width: 300px;
     display: flex;
     justify-content: center;
     margin: auto;
 }
-.gatinho-pipi{
+
+.gatinho-pipi {
     width: fit-content;
     text-transform: uppercase;
     background-color: #f1f1f1;
@@ -301,17 +314,21 @@ header {
     margin: 0 auto;
     z-index: 1;
 }
-.gatinho-pipi p{
+
+.gatinho-pipi p {
     text-align: center;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
 .gatinho-pipi input:invalid {
     animation: shake 0.2s 2;
     border: 1PX solid rgb(210, 92, 8);
 }
-.gatinho-pipi input, .gatinho-pipi textarea {
+
+.gatinho-pipi input,
+.gatinho-pipi textarea {
     border-radius: 10px;
     padding: 6px 16px;
     margin-bottom: 20px;
@@ -319,12 +336,35 @@ header {
     border: 1px solid #00000079;
     border: 1PX solid rgb(210, 92, 8);
 }
+
 .gatinho-pipiboton input {
-    background-color: rgb(210, 92, 8);
+    background-color: rgb(#ffffff);
     color: white;
     border: none;
     border-radius: 2em;
     height: 2.5em;
     width: 8em;
-    
+
+}
+
+.loja-nova {
+    margin: 16px;
+    width: 100px;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 3px solid rgb(218, 218, 218);
+    padding: 4rem;
+    position: 0;
+}
+
+.banho-no-pipi {
+    display: flex;
+    justify-content: center;
+    border: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    list-style: none;
 }
