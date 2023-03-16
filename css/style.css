@@ -38,6 +38,7 @@ header {
     text-decoration: none;
     color: white;
 }
+/* -------------------------------------------------------------------------------- */
 
 .movimento {
     display: flex;
@@ -76,6 +77,7 @@ header {
     background-color: #ffffff;
     border-radius: 80px;
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Classe para ajustar os --textos-- dos produtos presentes na página inicial */
 .produtos-textos {
@@ -89,6 +91,7 @@ header {
     margin: auto;
 
 }
+/* -------------------------------------------------------------------------------- */
 
 .imagem-gato {
     background-repeat: no-repeat;
@@ -103,6 +106,7 @@ header {
     margin: 0 auto;
     padding: 0px;
 }
+/* -------------------------------------------------------------------------------- */
 
 .p {
     border: 2px solid powderblue
@@ -141,6 +145,8 @@ header {
     color: white;
     text-decoration: none;
 }
+/* -------------------------------------------------------------------------------- */
+
 
 .margin-e-pading {
     margin: 0px;
@@ -148,7 +154,9 @@ header {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+/* -------------------------------------------------------------------------------- */
 
+/* img presente no cabeçalho */
 .imgdocabeçalho {
     width: 300px;
     text-transform: none;
@@ -156,6 +164,7 @@ header {
     padding-left: 2em;
     padding-top: 40px;
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Códigos para ajustar itens presentes no cabeçalho */
 .ajustesdocabeçalho {
@@ -163,6 +172,7 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Parte da /nav para navegar */
 .iconesdocabeçalho {
@@ -175,7 +185,6 @@ header {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
-
 }
 
 .iconesdocabeçalho>li {
@@ -183,6 +192,7 @@ header {
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
+/* -------------------------------------------------------------------------------- */
 
 .morder {
     width: 100%;
@@ -194,7 +204,9 @@ header {
     display: flex;
     align-items: center;
 }
+/* -------------------------------------------------------------------------------- */
 
+/* img do pet na página inicial*/
 .imagensdopet {
     display: flex;
     justify-content: center;
@@ -202,6 +214,7 @@ header {
     height: 110px;
     margin: auto;
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Class para ajeitar os --Botões-- localizado abaixo dos "produtos para você" */
 .btn-2 {
@@ -217,13 +230,14 @@ header {
     padding: auto;
 
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Classe master para --outra section-- na página inicial */
 .sectionmaster2 {
     display: flex;
     justify-content: space-evenly;
-
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Class para ajustar os --botões de interação-- localizado abaixo dos "produtos 
 para você" na página inicial   */
@@ -233,7 +247,6 @@ para você" na página inicial   */
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
-
 }
 
 .btn-1 p,
@@ -243,6 +256,7 @@ para você" na página inicial   */
     margin: auto;
 
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Classe da section - master */
 .sectionmasterpgninicial {
@@ -251,10 +265,12 @@ para você" na página inicial   */
     overflow-x: auto;
     white-space: nowrap;
 }
+/* -------------------------------------------------------------------------------- */
 
 .sectionmasterpgninicial::-webkit-scrollbar {
     display: none;
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Class master do --rodapé-- */
 .footer {
@@ -331,7 +347,6 @@ para você" na página inicial   */
     z-index: 1;
     
 }
-/* -------------------------------------------------------------------------------- */
 
 .tabelacontatos p {
     text-align: center;
@@ -364,7 +379,9 @@ para você" na página inicial   */
     width: 8em;
 
 }
+/* -------------------------------------------------------------------------------- */
 
+/*  */
 .loja-nova {
         width: 0;
         height: 0;
@@ -372,7 +389,9 @@ para você" na página inicial   */
         border-right: 10px solid transparent;
         border-bottom: 20px solid yellow
 }
+/* -------------------------------------------------------------------------------- */
 
+/*  */
 .fimdoheader {
     display: flex;
     justify-content: center;
@@ -384,6 +403,9 @@ para você" na página inicial   */
     margin: 0;
     list-style: none;
 }
+/* -------------------------------------------------------------------------------- */
+
+/* Ajustes do Header */
 .colorheader{
    background-color: #1496a7;
     border-radius: 100px;
@@ -397,6 +419,7 @@ para você" na página inicial   */
     width: 8em;
 
 }
+/* -------------------------------------------------------------------------------- */
 
 /* Classe para interagir nos --botões cachorro/gato-- >"Banho e Tosa" */
 .seleçao-dog{
