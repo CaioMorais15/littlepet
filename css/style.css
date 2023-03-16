@@ -38,6 +38,7 @@ header {
     text-decoration: none;
     color: white;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .movimento {
@@ -77,6 +78,7 @@ header {
     background-color: #ffffff;
     border-radius: 80px;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe para ajustar os --textos-- dos produtos presentes na página inicial */
@@ -91,6 +93,7 @@ header {
     margin: auto;
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .imagem-gato {
@@ -106,6 +109,7 @@ header {
     margin: 0 auto;
     padding: 0px;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .p {
@@ -145,6 +149,7 @@ header {
     color: white;
     text-decoration: none;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 
@@ -154,6 +159,7 @@ header {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* img presente no cabeçalho */
@@ -164,6 +170,7 @@ header {
     padding-left: 2em;
     padding-top: 40px;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Códigos para ajustar itens presentes no cabeçalho */
@@ -172,6 +179,7 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Parte da /nav para navegar */
@@ -192,6 +200,7 @@ header {
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .morder {
@@ -204,6 +213,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* img do pet na página inicial*/
@@ -214,6 +224,7 @@ header {
     height: 110px;
     margin: auto;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Class para ajeitar os --Botões-- localizado abaixo dos "produtos para você" */
@@ -230,6 +241,7 @@ header {
     padding: auto;
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe master para --outra section-- na página inicial */
@@ -237,6 +249,7 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Class para ajustar os --botões de interação-- localizado abaixo dos "produtos 
@@ -256,6 +269,7 @@ para você" na página inicial   */
     margin: auto;
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe da section - master */
@@ -265,11 +279,13 @@ para você" na página inicial   */
     overflow-x: auto;
     white-space: nowrap;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .sectionmasterpgninicial::-webkit-scrollbar {
     display: none;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Class master do --rodapé-- */
@@ -280,6 +296,7 @@ para você" na página inicial   */
     text-decoration: none;
     color: white;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe para ajustar os */
@@ -290,6 +307,7 @@ para você" na página inicial   */
     top: -2px;
     width: fit-content;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Itens/links presentes no --rodapé */
@@ -308,6 +326,7 @@ para você" na página inicial   */
 
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 .quem-somos>li {
@@ -333,6 +352,7 @@ para você" na página inicial   */
     justify-content: center;
     margin: auto;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe master do --Formulário-- >"Contatos & Agendamentos" */
@@ -345,7 +365,7 @@ para você" na página inicial   */
     padding: 2em;
     margin: 0 auto;
     z-index: 1;
-    
+
 }
 
 .tabelacontatos p {
@@ -379,16 +399,18 @@ para você" na página inicial   */
     width: 8em;
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /*  */
 .loja-nova {
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 20px solid yellow
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid yellow
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /*  */
@@ -403,13 +425,15 @@ para você" na página inicial   */
     margin: 0;
     list-style: none;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Ajustes do Header */
-.colorheader{
-   background-color: #1496a7;
+.colorheader {
+    background-color: #1496a7;
     border-radius: 100px;
 }
+
 .colorheader input {
     background-color: #1496a7;
     color: rgb(0, 0, 0);
@@ -419,10 +443,11 @@ para você" na página inicial   */
     width: 8em;
 
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe para interagir nos --botões cachorro/gato-- >"Banho e Tosa" */
-.seleçao-dog{
+.seleçao-dog {
     width: 420px;
     height: 120px;
     justify-content: space-between;
@@ -436,17 +461,19 @@ para você" na página inicial   */
     justify-content: center;
     align-items: center;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classes para --ajustar os botões cachorro/gato-- > "Banho e Tosa */
-.ajustes-da-seleçao{
+.ajustes-da-seleçao {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
 }
-.ajustes-da-seleçaoboton input{
+
+.ajustes-da-seleçaoboton input {
     background-color: rgb(#ff0000);
     color: rgb(0, 0, 0);
     border: none;
@@ -454,10 +481,11 @@ para você" na página inicial   */
     height: 3.5em;
     width: 10em;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe master para realizar o --Formulário-- >"Banho & Tosa" */
-.cabeçariozindex{
+.cabeçariozindex {
     width: fit-content;
     text-transform: uppercase;
     background-color: #f1f1f1;
@@ -467,8 +495,9 @@ para você" na página inicial   */
     margin: 0 auto;
     z-index: 1;
 }
-.cabeçariozindex input{
-    background-color:#1496a7;
+
+.cabeçariozindex input {
+    background-color: #1496a7;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 2em;
@@ -486,28 +515,32 @@ para você" na página inicial   */
     border: 1px solid #00000079;
     border: 1PX solid #1496a7;
 }
+
 .cabeçariozindex input:invalid {
     animation: shake 0.2s 2;
     border: 1PX solid #1496a7;
 }
+
 .cabeçariozindex p {
     text-align: center;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe master para realizar organizar os produtos > "Loja" */
-.flex-container{
-display: flex;
-gap:5em;
-list-style: none;
+.flex-container {
+    display: flex;
+    gap: 5em;
+    list-style: none;
 }
+
 /* -------------------------------------------------------------------------------- */
 
 /* Classe para ajustar cada quadrado com os produtos >"Loja" */
-.flex-item{
+.flex-item {
     background-color: #e4e2e2;
     width: 360px;
     height: 157px;
@@ -519,3 +552,49 @@ list-style: none;
     border: 5px solid rgba(186, 145, 119, 0.6);
     position: 0;
 }
+ /* -------------------------------------------------------------------------------- */
+
+/* Formulário>"entre ou cadastre" */
+.cadastro-master {
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(210, 92, 8);
+    padding: 2em;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.cadastro-master input {
+    background-color: rgb(210, 92, 8);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2em;
+    height: 2.5em;
+    width: 20em;
+
+}
+
+.cadastro-master input,
+.cadastro-master textarea {
+    border-radius: 10px;
+    padding: 6px 16px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #00000079;
+    border: 1PX solid rgb(210, 92, 8);
+}
+
+.cadastro-master input:invalid {
+    animation: shake 0.2s 2;
+    border: 1PX solid rgb(210, 92, 8);
+}
+
+.cadastro-master p {
+    text-align: center;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+    /* -------------------------------------------------------------------------------- */
