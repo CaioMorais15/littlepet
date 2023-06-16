@@ -615,7 +615,8 @@ para você" na página inicial   */
 /* teste */
 
 .spinner {
-  background-color: #1496a7;
+
+    
   z-index: 9999;
   position: absolute;
   top: 40%;
@@ -668,29 +669,62 @@ para você" na página inicial   */
   }
 }
 
+
 /* Estilos para a página de loading */
 #loader {
-  position: fixed;
+  
+ 
+    position: fixed;
+      
+     
+    top: 0;
+      
+     
+    left: 0;
+      
+     
+    width: 100%;
+      
+     
+    height: 100%;
+      
+     
+    background-color:#19a2b485;
+      
+     
+    z-index: 9999;
+      
+     
+    display: flex;
+      justify-content: center;
+      
+     
+    align-items: center;
+    }
+    
+    .loader-text {
+      
+     
+    font-size: 24px;
+      font-weight: bold;
+    }
 
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  height: 100%;
-
-  background-color: #ffffff73;
-
-  z-index: 9999;
-
-  display: flex;
-  justify-content: center;
-
-  align-items: center;
-}
-
-.loader-text {
-  font-size: 24px;
-  font-weight: bold;
-}
+    .confirmacao{
+      display: none;
+    }
+    .sectionmasterpgninicial{
+      .conteudo1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     }
+     .card{
+        background-color: #f1f1f1;
+        min-width: 250px;
+        margin: 10px;
+        height: 200px;
+        text-align: center;
+     }
+    }

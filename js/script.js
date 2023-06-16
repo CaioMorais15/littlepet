@@ -11,7 +11,9 @@ function showLoader() {
 
   var loaderText = document.createElement("p");
   loaderText.setAttribute("class", "loader-text");
-  loaderText.innerHTML=`<div class="spinner" >
+  loaderText.innerHTML=`
+  
+  <div class="spinner" >
   <div class="rect1"></div>
       
      
@@ -26,7 +28,8 @@ function showLoader() {
      
   <div class="rect5"></div>
     
-</div>`;
+</div>
+`
 
   loader.appendChild(loaderText);
 
@@ -56,3 +59,41 @@ window.addEventListener("load", function () {
     1500
   );
 });
+
+// function enviar() {
+//   var enviar = document.getElementById("enviar");
+
+
+// }
+
+ 
+document.getElementById("frmContato").addEventListener("enviar", function(event)
+(
+  event.preventDefault();
+
+  var sucesso = document.getElementById(confirmacao);
+  sucesso.style.display = "block";
+
+  frmContato.reset();
+
+  setTimeout( function(
+    sucesso.style.display: "none";
+  ); 3000)
+
+)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
