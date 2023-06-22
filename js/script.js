@@ -1,11 +1,16 @@
+var OnOff = true;
+
 // Oculta o loader após 3 segundos
-setTimeout(function () {
+setTimeout (function () {
   var loader = document.getElementById("loader");
   loader.style.display = "none";
 }, 3000);
 
+//----------------------------------------------------------
+
 // Função para mostrar a página de loading
 function showLoader() {
+  OnOff = true;
   var loader = document.createElement("div");
   loader.setAttribute("id", "loader");
 
@@ -33,21 +38,31 @@ function showLoader() {
 
   loader.appendChild(loaderText);
 
-  document.body.appendChild(loader);
+ document.body.appendChild(loader);
 }
+
+//----------------------------------------------------------
 
 // Função para esconder a página de loading
 function hideLoader() {
   var loader = document.getElementById("loader");
 
   if (loader) {
+    OnOff = false;
     loader.remove();
   }
 }
 
+//----------------------------------------------------------
+
 // Mostrar a página de loading assim que a página for carregada
 window.addEventListener("load", function () {
-  showLoader();
+  if (OnOff){
+    showLoader();
+
+  }else{
+    hideLoader();
+  }
 
   // Simulando um tempo de carregamento de 3 segundos
 
@@ -56,44 +71,32 @@ window.addEventListener("load", function () {
       hideLoader();
     },
 
-    1500
+    800
   );
 });
 
-// function enviar() {
-//   var enviar = document.getElementById("enviar");
+//----------------------------------------------------------
+
+//Parte do formulário da página Contatos e Agendamentos
+function formContatos(){
+  var enviar = document.getElementById("enviar")
+  
+  if (enviar) {
+    
+  }
+}
 
 
-// }
-
- 
-document.getElementById("frmContato").addEventListener("enviar", function(event)
-(
+frmContato.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  var sucesso = document.getElementById(confirmacao);
-  sucesso.style.display = "block";
+  var sucesso = document.getElementById("confirmacao");
+  sucesso.style.display = "flex";
 
   frmContato.reset();
 
-  setTimeout( function(
-    sucesso.style.display: "none";
-  ); 3000)
-
-)
-)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  setTimeout(function () {
+      sucesso.style.display = "none";
+  },3000);
+});
 

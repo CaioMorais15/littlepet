@@ -238,6 +238,7 @@ header {
 .sectionmaster2 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -587,6 +588,8 @@ para você" na página inicial   */
   left: 0;
   height: 70px;
   width: 50%;
+  
+
 }
 .promitI {
   display: flex;
@@ -599,6 +602,8 @@ para você" na página inicial   */
   width: 300px;
   width: 50%;
   border-right-color: black;
+
+  
 }
 .promoTi {
   display: flex;
@@ -609,6 +614,7 @@ para você" na página inicial   */
   left: 0;
   height: 70px;
   width: 300px;
+  
   width: 2%;
 }
 
@@ -689,7 +695,7 @@ para você" na página inicial   */
     height: 100%;
       
      
-    background-color:#19a2b485;
+    background-color:#00000085;
       
      
     z-index: 9999;
@@ -727,4 +733,103 @@ para você" na página inicial   */
         height: 200px;
         text-align: center;
      }
+    }
+    .btn-fixed{
+      position: fixed;
+      bottom:   30px;
+      right: 30px;
+      visibility: hidden;
+    }
+    .btn-fixed.visible {
+      visibility: visible;
+    }
+    .entrar {
+      width: fit-content;
+      text-transform: uppercase;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      padding: 2em;
+      margin: 0 auto;
+    }
+    .entrar h2 {
+      color: var(--cor-de-fundo);
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    
+    .entrar p {
+      text-align: center;
+      margin-top: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+    }
+    
+    .entrar input,
+    .entrar textarea {
+      border-radius: 6px;
+      padding: 6px 16px;
+      margin-bottom: 20px;
+      width: 300px;
+      background: transparent;
+      border: 1px solid black;
+    }
+    
+    .form-btn {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .form-btn button {
+      background-color:var(--cor-de-fundo);
+      color: #f1f1f1;
+      border: none;
+      border-radius: 2em;
+      height: 2.5em;
+      width: 8em;
+    }
+    
+    .entrar input:invalid {
+      animation: shake 0.2s 2;
+      border: 1px solid red;
+    }
+    @keyframes shake {
+      25% {
+        translate: 6px 0;
+      }
+      50% {
+        translate: -6px 0;
+      }
+      75% {
+        translate: 6px 0;
+      }
+    }
+    
+    .confirmacao {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.438);
+      border-radius: 10px;
+      color: white;
+      filter: drop-shadow(3px 3px 5px black);
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .confirmacao div,
+    .confirmacao h2,
+    .confirmacao p{
+       margin: 0;
+       padding: 20px;
+       text-align: center;
+       background-color:rgb(221, 146, 92);
+       border-radius: 10px;
+       /* padding: 20px; */
     }
